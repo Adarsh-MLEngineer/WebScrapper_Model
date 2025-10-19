@@ -74,6 +74,7 @@ pip install -r requirements.txt
   * Implement automated **report generation** (PDF/Excel).
   * Extend scraping capabilities to **dynamic websites** using Selenium or Playwright.
   * Deploy as a **web-based application** with Flask or FastAPI.
+  * Deploy as a **command Line tool for linux users**
 
 -----
 

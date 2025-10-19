@@ -1,0 +1,9 @@
+pip install 
+
+
+pandas & numpy
+skikit-learn
+matplotlib
+tkinter
+Requests & Beautifulsoup
+

@@ -29,4 +29,4 @@ def scrape_url(url):
     process.start()  # the script will block here until crawling is finished
 
 # Example usage:
-scrape_url("https://en.wikipedia.org/wiki/Wiki")
+scrape_url("]ink_goes here")

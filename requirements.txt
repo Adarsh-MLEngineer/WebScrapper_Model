@@ -1,0 +1,70 @@
+You can save this as a file named **`requirements.txt`** in the root of your project (same level as your `scraper/` and `analyzer/` folders).
+
+---
+
+### `requirements.txt`
+
+```txt
+# --- Core dependencies ---
+scrapy>=2.11.0
+pathlib
+
+# --- HTML parsing and text extraction ---
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# --- Machine Learning & NLP ---
+scikit-learn>=1.5.0
+spacy>=3.7.0
+transformers>=4.44.0
+torch>=2.2.0
+
+# --- Data visualization (for future analysis) ---
+matplotlib>=3.8.0
+plotly>=5.22.0
+
+# --- Optional: GUI frameworks ---
+streamlit>=1.37.0
+gradio>=4.0.0
+
+# --- Utility libraries ---
+pandas>=2.2.0
+numpy>=1.26.0
+```
+
+---
+
+### How to Install
+
+Once you’ve saved this file, you (or anyone else using the project) can set up the environment with:
+
+```bash
+pip install -r requirements.txt
+```
+
+or, if you’re using a virtual environment:
+
+```bash
+python -m venv venv
+source venv/bin/activate   # On macOS/Linux
+venv\Scripts\activate      # On Windows
+
+pip install -r requirements.txt
+```
+
+---
+
+### Notes
+
+* The versions listed are stable and compatible as of late 2025.
+* If you plan to deploy on limited environments (like Heroku or Replit), you can comment out the heavier libraries like `torch` and `transformers` until needed.
+* For large-scale crawling, you might later add:
+
+  ```txt
+  aiohttp
+  requests
+  celery
+  ```
+
+---
+
